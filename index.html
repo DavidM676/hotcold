@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot and Cold Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Hot and Cold Game</h1>
+        <button onclick="newGame()">New Game</button>
+        <p>Guess the number between 1 and 100.</p>
+        <input type="number" id="guess-input" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="result"></p>
+        <p id="attempts">Attempts: <span id="attempt-count">0</span></p>
+    </div>
 
+
+</body>
+</html>
